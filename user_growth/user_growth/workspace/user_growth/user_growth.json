@@ -1,0 +1,64 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"ug_hdr_short\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"ug_sc_all\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Subscription Event\",\"col\":3}},{\"id\":\"ug_sc_active\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Active Subscriptions\",\"col\":3}},{\"id\":\"ug_spacer\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ug_hdr_cards\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"ug_card_tx\",\"type\":\"card\",\"data\":{\"card_name\":\"Transactions\",\"col\":4}}]",
+ "creation": "2026-10-08 18:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "users",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "User Growth",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Transactions",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subscription Event",
+   "link_count": 0,
+   "link_to": "Subscription Event",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-10-08 18:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "User Growth",
+ "name": "User Growth",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "format": "{} Total",
+   "label": "Subscription Event",
+   "link_to": "Subscription Event",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "format": "{} Active",
+   "label": "Active Subscriptions",
+   "link_to": "Subscription Event",
+   "stats_filter": "[[\"Subscription Event\",\"status\",\"=\",\"Active\",false],[\"Subscription Event\",\"docstatus\",\"=\",1,false]]",
+   "type": "DocType"
+  }
+ ],
+ "title": "User Growth"
+}
