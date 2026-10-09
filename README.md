@@ -10,7 +10,7 @@
 
 ```bash
 cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
+bench get-app https://github.com/NUGURI-7/user_growth --branch develop
 bench --site $SITE install-app user_growth
 ```
 
