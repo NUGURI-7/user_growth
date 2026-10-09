@@ -1,6 +1,12 @@
 // Copyright (c) 2026, nuguri and contributors
 // For license information, please see license.txt
 
+// Option labels share translations with the Subscription Event form
+const options = (values) => [
+	{ value: "", label: "" },
+	...values.map((value) => ({ value, label: __(value, null, "Subscription Event") })),
+];
+
 frappe.query_reports["User Growth Analysis"] = {
 	filters: [
 		{
@@ -22,19 +28,19 @@ frappe.query_reports["User Growth Analysis"] = {
 			fieldname: "plan",
 			label: __("Plan"),
 			fieldtype: "Select",
-			options: ["", "Basic", "Professional", "Enterprise"],
+			options: options(["Basic", "Professional", "Enterprise"]),
 		},
 		{
 			fieldname: "channel",
 			label: __("Channel"),
 			fieldtype: "Select",
-			options: ["", "Website", "Direct Sales", "Partner", "Referral"],
+			options: options(["Website", "Direct Sales", "Partner", "Referral"]),
 		},
 		{
 			fieldname: "region",
 			label: __("Region"),
 			fieldtype: "Select",
-			options: ["", "North China", "East China", "South China", "Central China", "West China"],
+			options: options(["North China", "East China", "South China", "Central China", "West China"]),
 		},
 	],
 

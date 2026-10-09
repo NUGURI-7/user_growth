@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"ug_hdr_short\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"ug_sc_all\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Subscription Event\",\"col\":3}},{\"id\":\"ug_sc_active\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Active Subscriptions\",\"col\":3}},{\"id\":\"ug_sc_report\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"User Growth Analysis\",\"col\":3}},{\"id\":\"ug_spacer\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ug_hdr_cards\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"ug_card_tx\",\"type\":\"card\",\"data\":{\"card_name\":\"Transactions\",\"col\":4}},{\"id\":\"ug_card_reports\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "content": "[{\"id\":\"ug_hdr_short\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"ug_sc_all\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Subscription Event\",\"col\":3}},{\"id\":\"ug_sc_active\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Active Subscriptions\",\"col\":3}},{\"id\":\"ug_sc_report\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"User Growth Analysis\",\"col\":3}},{\"id\":\"ug_sc_dash\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"User Growth Dashboard\",\"col\":3}},{\"id\":\"ug_spacer\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ug_hdr_cards\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Dashboards</b></span>\",\"col\":12}},{\"id\":\"ug_card_tx\",\"type\":\"card\",\"data\":{\"card_name\":\"Transactions\",\"col\":4}},{\"id\":\"ug_card_reports\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
  "creation": "2026-10-08 18:00:00.000000",
  "custom_blocks": [],
  "docstatus": 0,
@@ -34,7 +34,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Reports",
-   "link_count": 1,
+   "link_count": 2,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -48,9 +48,19 @@
    "onboard": 0,
    "type": "Link",
    "dependencies": "Subscription Event"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "User Growth Dashboard",
+   "link_count": 0,
+   "link_to": "user-growth-dashboard",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2026-10-08 19:30:00.000000",
+ "modified": "2026-10-08 22:30:00.000000",
  "modified_by": "Administrator",
  "module": "User Growth",
  "name": "User Growth",
@@ -63,6 +73,13 @@
  "roles": [],
  "sequence_id": 1.0,
  "shortcuts": [
+  {
+   "color": "Blue",
+   "label": "User Growth Dashboard",
+   "link_to": "user-growth-dashboard",
+   "type": "Page",
+   "doc_view": ""
+  },
   {
    "color": "Grey",
    "format": "{} Total",
@@ -79,7 +96,7 @@
    "type": "DocType"
   },
   {
-   "color": "Blue",
+   "color": "Grey",
    "label": "User Growth Analysis",
    "link_to": "User Growth Analysis",
    "type": "Report",

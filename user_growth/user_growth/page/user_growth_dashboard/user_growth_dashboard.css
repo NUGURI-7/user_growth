@@ -1,0 +1,448 @@
+/* User Growth Dashboard styles, scoped to this page */
+
+/*
+ * Theme: the dashboard has its own dark / light switch (data-ug-theme on the
+ * page wrapper), independent of Frappe's desk theme. Dark is the default.
+ */
+.ug-page[data-ug-theme="light"] {
+	--ug-bg: #f4f6fa;
+	--ug-panel: #ffffff;
+	--ug-panel-hover: #f1f5fb;
+	--ug-border: rgba(15, 23, 42, 0.08);
+	--ug-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 4px 12px rgba(15, 23, 42, 0.04);
+	--ug-text: #0f172a;
+	--ug-muted: #64748b;
+	--ug-accent: #2f6fed;
+	--ug-good: #059669;
+	--ug-bad: #dc2626;
+	--ug-chip-text: #1d4ed8;
+
+	--ug-grid: rgba(15, 23, 42, 0.06);
+	--ug-tooltip-bg: #ffffff;
+}
+
+.ug-page {
+	--ug-bg: #0b1120;
+	--ug-panel: #121a2c;
+	--ug-panel-hover: #18223a;
+	--ug-border: rgba(148, 163, 184, 0.12);
+	--ug-shadow: none;
+	--ug-text: #e2e8f0;
+	--ug-muted: #8391a7;
+	--ug-accent: #4f8cff;
+	--ug-good: #34d399;
+	--ug-bad: #f87171;
+	--ug-chip-text: #a5c4ff;
+
+	--ug-grid: rgba(148, 163, 184, 0.1);
+	--ug-tooltip-bg: #1e293b;
+}
+
+/* frappe-charts reads these on .chart-container; Frappe's dark theme sets them
+   there too, so match its specificity to keep the dashboard palette */
+.ug-page .chart-container,
+[data-theme] .ug-page .chart-container {
+	--charts-label-color: var(--ug-muted);
+	--charts-axis-line-color: var(--ug-grid);
+	--charts-stroke-width: 2px;
+	--charts-dataset-circle-stroke: var(--ug-panel);
+	--charts-tooltip-bg: var(--ug-tooltip-bg);
+	--charts-tooltip-title: var(--ug-text);
+	--charts-tooltip-label: var(--ug-muted);
+	--charts-tooltip-value: var(--ug-text);
+	--charts-legend-label: var(--ug-muted);
+	--charts-legend-value: var(--ug-text);
+}
+
+.ug-page {
+	background: var(--ug-bg);
+	min-height: calc(100vh - var(--navbar-height, 48px));
+}
+
+.ug-page .page-head {
+	display: none;
+}
+
+.ug-page .layout-main-section,
+.ug-page .layout-main-section-wrapper {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+	padding: 0;
+}
+
+.ug-dash {
+	color: var(--ug-text);
+	background: var(--ug-bg);
+	padding: 24px 0 32px;
+	transition: opacity 0.2s;
+}
+
+.ug-dash.is-loading {
+	opacity: 0.55;
+	pointer-events: none;
+}
+
+.ug-dash.is-fullscreen {
+	background: var(--ug-bg);
+	padding: 24px 32px;
+	overflow-y: auto;
+}
+
+.ug-muted {
+	color: var(--ug-muted);
+}
+
+/* ---------- header ---------- */
+
+.ug-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	gap: 16px;
+	margin-bottom: 20px;
+}
+
+.ug-title {
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 0.01em;
+}
+
+.ug-updated {
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+.ug-toolbar {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	flex-wrap: wrap;
+}
+
+.ug-dash button {
+	font: inherit;
+	color: inherit;
+	background: none;
+	border: none;
+	padding: 0;
+	text-align: left;
+	cursor: pointer;
+}
+
+.ug-segment {
+	display: inline-flex;
+	background: var(--ug-panel);
+	border: 1px solid var(--ug-border);
+	border-radius: 8px;
+	padding: 3px;
+}
+
+.ug-dash .ug-segment button {
+	padding: 4px 12px;
+	border-radius: 6px;
+	font-size: 12px;
+	color: var(--ug-muted);
+}
+
+.ug-dash .ug-segment button.active {
+	background: var(--ug-accent);
+	color: #fff;
+}
+
+.ug-dash .ug-icon-btn {
+	width: 32px;
+	height: 32px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	background: var(--ug-panel);
+	border: 1px solid var(--ug-border);
+}
+
+.ug-icon-btn .icon {
+	--icon-stroke: var(--ug-muted);
+}
+
+.ug-icon-btn:hover .icon {
+	--icon-stroke: var(--ug-text);
+}
+
+.ug-chips {
+	display: flex;
+	gap: 6px;
+}
+
+.ug-dash .ug-chip {
+	font-size: 12px;
+	padding: 4px 10px;
+	border-radius: 999px;
+	background: rgba(79, 140, 255, 0.15);
+	color: var(--ug-chip-text);
+}
+
+.ug-chip-x {
+	margin-left: 4px;
+	opacity: 0.7;
+}
+
+/* ---------- layout ---------- */
+
+.ug-grid {
+	display: grid;
+	grid-template-columns: repeat(12, minmax(0, 1fr));
+	gap: 16px;
+	margin-bottom: 16px;
+}
+
+.ug-kpis {
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.span-3 { grid-column: span 3; }
+.span-4 { grid-column: span 4; }
+.span-6 { grid-column: span 6; }
+.span-8 { grid-column: span 8; }
+
+.ug-card {
+	background: var(--ug-panel);
+	border: 1px solid var(--ug-border);
+	border-radius: 12px;
+	box-shadow: var(--ug-shadow);
+	padding: 18px 20px;
+	min-width: 0;
+}
+
+.ug-card-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 12px;
+}
+
+.ug-card-title {
+	font-size: 13px;
+	font-weight: 500;
+	color: var(--ug-muted);
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+}
+
+/* ---------- KPI cards ---------- */
+
+.ug-kpi {
+	cursor: pointer;
+	transition: background 0.15s, border-color 0.15s;
+}
+
+.ug-kpi:hover {
+	background: var(--ug-panel-hover);
+	border-color: rgba(79, 140, 255, 0.4);
+}
+
+.ug-kpi-label {
+	font-size: 13px;
+	color: var(--ug-muted);
+}
+
+.ug-kpi-value {
+	font-size: 32px;
+	font-weight: 600;
+	margin: 6px 0 8px;
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.ug-delta {
+	font-size: 12px;
+	font-variant-numeric: tabular-nums;
+}
+
+.ug-delta.good { color: var(--ug-good); }
+.ug-delta.bad { color: var(--ug-bad); }
+.ug-delta.flat { color: var(--ug-muted); }
+
+/* ---------- plan legend ---------- */
+
+.ug-plan-legend {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	margin-top: 4px;
+}
+
+.ug-dash .ug-legend-item {
+	display: grid;
+	grid-template-columns: 10px 1fr auto;
+	column-gap: 10px;
+	align-items: center;
+	padding: 6px 8px;
+	border-radius: 8px;
+	transition: background 0.15s, opacity 0.15s;
+}
+
+.ug-legend-item:hover {
+	background: var(--ug-panel-hover);
+}
+
+.ug-dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 3px;
+}
+
+.ug-legend-value {
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
+.ug-legend-sub {
+	grid-column: 2 / 4;
+	font-size: 12px;
+	color: var(--ug-muted);
+}
+
+/* ---------- rankings ---------- */
+
+.ug-dash .ug-rank {
+	display: block;
+	width: 100%;
+	padding: 6px 8px;
+	border-radius: 8px;
+	transition: background 0.15s, opacity 0.15s;
+}
+
+.ug-rank:hover {
+	background: var(--ug-panel-hover);
+}
+
+.ug-rank-head {
+	display: flex;
+	justify-content: space-between;
+	font-size: 13px;
+	margin-bottom: 6px;
+}
+
+.ug-rank-value {
+	font-variant-numeric: tabular-nums;
+}
+
+.ug-bar {
+	height: 6px;
+	border-radius: 3px;
+	background: rgba(148, 163, 184, 0.12);
+	overflow: hidden;
+}
+
+.ug-bar > div {
+	height: 100%;
+	border-radius: 3px;
+	transition: width 0.4s ease;
+}
+
+.ug-dash .selected {
+	background: rgba(79, 140, 255, 0.14);
+	box-shadow: inset 0 0 0 1px rgba(79, 140, 255, 0.45);
+}
+
+.ug-dash .dimmed {
+	opacity: 0.4;
+}
+
+/* ---------- recent activity ---------- */
+
+.ug-dash .ug-recent-row {
+	display: grid;
+	grid-template-columns: 96px minmax(0, 1fr) 100px 72px 120px;
+	gap: 12px;
+	align-items: center;
+	width: 100%;
+	padding: 8px;
+	font-size: 13px;
+	border-radius: 8px;
+	border-bottom: 1px solid var(--ug-border);
+}
+
+.ug-recent-row:last-child {
+	border-bottom: none;
+}
+
+.ug-recent-row:hover {
+	background: var(--ug-panel-hover);
+}
+
+.ug-recent-name {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.ug-recent-extra {
+	text-align: right;
+	color: var(--ug-muted);
+	font-variant-numeric: tabular-nums;
+}
+
+.ug-badge {
+	font-size: 11px;
+	padding: 2px 8px;
+	border-radius: 999px;
+	text-align: center;
+}
+
+.ug-badge.good {
+	background: rgba(52, 211, 153, 0.14);
+	color: var(--ug-good);
+}
+
+.ug-badge.bad {
+	background: rgba(248, 113, 113, 0.14);
+	color: var(--ug-bad);
+}
+
+.ug-empty {
+	padding: 24px 0;
+	text-align: center;
+	color: var(--ug-muted);
+	font-size: 13px;
+}
+
+.ug-footnote {
+	font-size: 12px;
+	text-align: center;
+	margin-top: 8px;
+}
+
+/* charts on dark background */
+.ug-dash .chart-container .title {
+	display: none;
+}
+
+/* the plan card renders its own clickable legend */
+.ug-plan-chart .chart-legend {
+	display: none;
+}
+
+.ug-dash .graph-svg-tip {
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* ---------- responsive ---------- */
+
+@media (max-width: 1200px) {
+	.span-3 { grid-column: span 6; }
+	.span-4, .span-8 { grid-column: span 12; }
+	.ug-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 768px) {
+	.span-3, .span-6 { grid-column: span 12; }
+	.ug-kpis { grid-template-columns: minmax(0, 1fr); }
+	.ug-dash .ug-recent-row { grid-template-columns: 80px minmax(0, 1fr) 64px; }
+	.ug-recent-row > :nth-child(3), .ug-recent-row > :nth-child(5) { display: none; }
+}

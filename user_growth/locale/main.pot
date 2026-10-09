@@ -1,0 +1,443 @@
+# Translations template for User Growth.
+# Copyright (C) 2026 nuguri
+# This file is distributed under the same license as the User Growth project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: User Growth VERSION\n"
+"Report-Msgid-Bugs-To: nuguri990717@gmail.com\n"
+"POT-Creation-Date: 2026-10-08 03:09-0807\n"
+"PO-Revision-Date: 2026-10-08 03:09-0807\n"
+"Last-Translator: nuguri990717@gmail.com\n"
+"Language-Team: nuguri990717@gmail.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:338
+msgid "12 Months"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:337
+msgid "6 Months"
+msgstr ""
+
+#. Header text in the User Growth Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "<span class=\"h4\"><b>Reports &amp; Dashboards</b></span>"
+msgstr ""
+
+#. Header text in the User Growth Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "<span class=\"h4\"><b>Your Shortcuts</b></span>"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Active"
+msgstr ""
+
+#: user_growth/user_growth/doctype/subscription_event/subscription_event_list.js:12
+msgctxt "Subscription Event"
+msgid "Active"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:95
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:134
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:144
+msgid "Active Customers"
+msgstr ""
+
+#. Label of a shortcut in the User Growth Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "Active Subscriptions"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:339
+msgid "All"
+msgstr ""
+
+#. Label of a Link field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Amended From"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:145
+msgid "Avg Monthly Churn Rate"
+msgstr ""
+
+#. Option for the 'Plan' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Basic"
+msgstr ""
+
+#. Option for the 'Churn Reason' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Business Change"
+msgstr ""
+
+#. Option for the 'Region' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Central China"
+msgstr ""
+
+#. Label of a Select field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.js:35
+msgid "Channel"
+msgstr ""
+
+#. Option for the 'Event Type' (Select) field in DocType 'Subscription Event'
+#. Label of a Section Break field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Churn"
+msgstr ""
+
+#: user_growth/user_growth/doctype/subscription_event/subscription_event_list.js:7
+msgctxt "Subscription Event"
+msgid "Churn"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:108
+msgid "Churn Rate"
+msgstr ""
+
+#. Label of a Select field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Churn Reason"
+msgstr ""
+
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.py:33
+msgid "Churn date cannot be earlier than subscription date"
+msgstr ""
+
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.py:45
+msgid "Churn event {0} already exists for this subscription"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:104
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:122
+msgid "Churned"
+msgstr ""
+
+#: user_growth/user_growth/doctype/subscription_event/subscription_event_list.js:10
+msgctxt "Subscription Event"
+msgid "Churned"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:142
+msgid "Churned Customers"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:110
+msgid "Churned MRR"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:98
+msgid "Churned This Month"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:111
+msgid "Click to view records"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:107
+msgid "Closing Active"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:112
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:147
+msgid "Closing MRR"
+msgstr ""
+
+#. Option for the 'Churn Reason' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Competitor"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Customer"
+msgstr ""
+
+#. Label of a Data field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Customer Name"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:354
+msgid "Customers"
+msgstr ""
+
+#. Option for the 'Channel' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Direct Sales"
+msgstr ""
+
+#. Option for the 'Region' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "East China"
+msgstr ""
+
+#. Option for the 'Plan' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Enterprise"
+msgstr ""
+
+#. Label of a Date field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Event Date"
+msgstr ""
+
+#. Label of a Select field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Event Type"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.js:14
+msgid "From Date"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:20
+msgid "From Date cannot be after To Date"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:342
+msgid "Full Screen"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:134
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:355
+msgid "MRR"
+msgstr ""
+
+#. Option for the 'Churn Reason' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Missing Features"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:102
+msgid "Month"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Monthly Fee"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:96
+msgid "Monthly Recurring Revenue"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "More Info"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:105
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:143
+msgid "Net Growth"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:111
+msgid "Net MRR"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:103
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:121
+msgid "New"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:141
+msgid "New Customers"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:109
+msgid "New MRR"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:97
+msgid "New This Month"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:319
+msgid "No data"
+msgstr ""
+
+#. Option for the 'Region' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "North China"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:106
+msgid "Opening Active"
+msgstr ""
+
+#. Option for the 'Channel' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Partner"
+msgstr ""
+
+#. Label of a Select field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.js:29
+msgid "Plan"
+msgstr ""
+
+#. Option for the 'Churn Reason' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Price"
+msgstr ""
+
+#. Option for the 'Plan' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Professional"
+msgstr ""
+
+#. Option for the 'Channel' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Referral"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:341
+msgid "Refresh"
+msgstr ""
+
+#. Label of a Select field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.js:41
+msgid "Region"
+msgstr ""
+
+#. Label of a Small Text field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Remarks"
+msgstr ""
+
+#. Label of a Card Break in the User Growth Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "Reports"
+msgstr ""
+
+#. Option for the 'Churn Reason' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Service Experience"
+msgstr ""
+
+#. Option for the 'Region' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "South China"
+msgstr ""
+
+#. Label of a Select field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Status"
+msgstr ""
+
+#. Option for the 'Event Type' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Subscribe"
+msgstr ""
+
+#. Label of a Link field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Subscription"
+msgstr ""
+
+#. Name of a DocType
+#. Label of a Link in the User Growth Workspace
+#. Label of a shortcut in the User Growth Workspace
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "Subscription Event"
+msgstr ""
+
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.py:29
+msgid "Subscription must be a submitted Subscribe event"
+msgstr ""
+
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.py:31
+msgid "Subscription {0} has already churned"
+msgstr ""
+
+#. Name of a role
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "System Manager"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:377
+msgid "Tip: click a plan, channel or region to filter the whole dashboard; click a KPI card or churn reason to open the records."
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.js:22
+msgid "To Date"
+msgstr ""
+
+#. Label of a Card Break in the User Growth Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "Transactions"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:62
+msgid "Updated {0} · auto refresh every 5 min"
+msgstr ""
+
+#. Name of a Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "User Growth"
+msgstr ""
+
+#. Name of a report
+#. Label of a Link in the User Growth Workspace
+#. Label of a shortcut in the User Growth Workspace
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.json
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "User Growth Analysis"
+msgstr ""
+
+#. Label of a Link in the User Growth Workspace
+#. Label of a shortcut in the User Growth Workspace
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:4
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:331
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "User Growth Dashboard"
+msgstr ""
+
+#. Option for the 'Channel' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Website"
+msgstr ""
+
+#. Option for the 'Region' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "West China"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:187
+msgid "month"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:95
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:96
+msgid "vs last month end"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:97
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:98
+msgid "vs same days last month"
+msgstr ""
+
+#. Count format of shortcut in the User Growth Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "{} Active"
+msgstr ""
+
+#. Count format of shortcut in the User Growth Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "{} Total"
+msgstr ""
+

@@ -8,6 +8,8 @@ from frappe.query_builder.functions import Count, DateFormat, Sum
 from frappe.utils import add_months, flt, fmt_money, get_first_day, getdate
 
 DIMENSIONS = ("plan", "channel", "region")
+# Translation context for words Frappe already translates differently (e.g. "New")
+CTX = "Subscription Event"
 
 
 def execute(filters=None):
@@ -98,7 +100,7 @@ def get_movements(filters, from_date, to_date):
 def get_columns():
 	return [
 		{"fieldname": "month", "label": _("Month"), "fieldtype": "Data", "width": 100},
-		{"fieldname": "new_customers", "label": _("New"), "fieldtype": "Int", "width": 90},
+		{"fieldname": "new_customers", "label": _("New", context=CTX), "fieldtype": "Int", "width": 90},
 		{"fieldname": "churned_customers", "label": _("Churned"), "fieldtype": "Int", "width": 90},
 		{"fieldname": "net_customers", "label": _("Net Growth"), "fieldtype": "Int", "width": 110},
 		{"fieldname": "opening_customers", "label": _("Opening Active"), "fieldtype": "Int", "width": 120},
@@ -116,7 +118,7 @@ def get_chart(rows):
 		"data": {
 			"labels": [r["month"] for r in rows],
 			"datasets": [
-				{"name": _("New"), "values": [r["new_customers"] for r in rows]},
+				{"name": _("New", context=CTX), "values": [r["new_customers"] for r in rows]},
 				{"name": _("Churned"), "values": [r["churned_customers"] for r in rows]},
 			],
 		},

@@ -1,0 +1,544 @@
+# Chinese translations for User Growth.
+# Copyright (C) 2026 nuguri
+# This file is distributed under the same license as the User Growth project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: User Growth VERSION\n"
+"Report-Msgid-Bugs-To: nuguri990717@gmail.com\n"
+"POT-Creation-Date: 2026-10-08 03:09-1207\n"
+"PO-Revision-Date: 2026-10-08 03:09-1207\n"
+"Last-Translator: nuguri990717@gmail.com\n"
+"Language: zh\n"
+"Language-Team: nuguri990717@gmail.com\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:338
+msgid "12 Months"
+msgstr "近 12 个月"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:337
+msgid "6 Months"
+msgstr "近 6 个月"
+
+#. Header text in the User Growth Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "<span class=\"h4\"><b>Reports &amp; Dashboards</b></span>"
+msgstr "<span class=\"h4\"><b>报表与大屏</b></span>"
+
+#. Header text in the User Growth Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "<span class=\"h4\"><b>Your Shortcuts</b></span>"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Active"
+msgstr ""
+
+#: user_growth/user_growth/doctype/subscription_event/subscription_event_list.js:12
+msgctxt "Subscription Event"
+msgid "Active"
+msgstr "在用"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:95
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:134
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:144
+msgid "Active Customers"
+msgstr "在用客户"
+
+#. Label of a shortcut in the User Growth Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "Active Subscriptions"
+msgstr "在用客户"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:339
+msgid "All"
+msgstr "全部"
+
+#. Label of a Link field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Amended From"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:145
+msgid "Avg Monthly Churn Rate"
+msgstr "平均月流失率"
+
+#. Option for the 'Plan' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Basic"
+msgstr ""
+
+#. Option for the 'Churn Reason' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Business Change"
+msgstr "业务调整"
+
+#. Option for the 'Region' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Central China"
+msgstr "华中"
+
+#. Label of a Select field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.js:35
+msgid "Channel"
+msgstr "获客渠道"
+
+#. Option for the 'Event Type' (Select) field in DocType 'Subscription Event'
+#. Label of a Section Break field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Churn"
+msgstr "流失"
+
+#: user_growth/user_growth/doctype/subscription_event/subscription_event_list.js:7
+msgctxt "Subscription Event"
+msgid "Churn"
+msgstr "流失"
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:108
+msgid "Churn Rate"
+msgstr "流失率"
+
+#. Label of a Select field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Churn Reason"
+msgstr "流失原因"
+
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.py:33
+msgid "Churn date cannot be earlier than subscription date"
+msgstr "流失日期不能早于开通日期"
+
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.py:45
+msgid "Churn event {0} already exists for this subscription"
+msgstr "该开通单已有流失单 {0}"
+
+#. Option for the 'Status' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:104
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:122
+msgid "Churned"
+msgstr "流失"
+
+#: user_growth/user_growth/doctype/subscription_event/subscription_event_list.js:10
+msgctxt "Subscription Event"
+msgid "Churned"
+msgstr "已流失"
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:142
+msgid "Churned Customers"
+msgstr "流失客户"
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:110
+msgid "Churned MRR"
+msgstr "流失月费"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:98
+msgid "Churned This Month"
+msgstr "本月流失"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:111
+msgid "Click to view records"
+msgstr "点击查看明细"
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:107
+msgid "Closing Active"
+msgstr "月末在用"
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:112
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:147
+msgid "Closing MRR"
+msgstr "月末月费"
+
+#. Option for the 'Churn Reason' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Competitor"
+msgstr "竞品"
+
+#. Label of a Section Break field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Customer"
+msgstr "客户信息"
+
+#. Label of a Data field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Customer Name"
+msgstr "客户名称"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:354
+msgid "Customers"
+msgstr "客户数"
+
+#. Option for the 'Channel' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Direct Sales"
+msgstr "销售直签"
+
+#. Option for the 'Region' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "East China"
+msgstr "华东"
+
+#. Option for the 'Plan' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Enterprise"
+msgstr "企业版"
+
+#. Label of a Date field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Event Date"
+msgstr "日期"
+
+#. Label of a Select field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Event Type"
+msgstr "类型"
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.js:14
+msgid "From Date"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:20
+msgid "From Date cannot be after To Date"
+msgstr "开始日期不能晚于结束日期"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:342
+msgid "Full Screen"
+msgstr "全屏"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:134
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:355
+msgid "MRR"
+msgstr "月费"
+
+#. Option for the 'Churn Reason' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Missing Features"
+msgstr "功能不满足"
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:102
+msgid "Month"
+msgstr "月份"
+
+#. Label of a Currency field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Monthly Fee"
+msgstr "月费"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:96
+msgid "Monthly Recurring Revenue"
+msgstr "月经常性收入"
+
+#. Label of a Section Break field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "More Info"
+msgstr "更多信息"
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:105
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:143
+msgid "Net Growth"
+msgstr "净增"
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:111
+msgid "Net MRR"
+msgstr "净增月费"
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:103
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:121
+msgid "New"
+msgstr ""
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:141
+msgid "New Customers"
+msgstr "新增客户"
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:109
+msgid "New MRR"
+msgstr "新增月费"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:97
+msgid "New This Month"
+msgstr "本月新增"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:319
+msgid "No data"
+msgstr "暂无数据"
+
+#. Option for the 'Region' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "North China"
+msgstr "华北"
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.py:106
+msgid "Opening Active"
+msgstr "月初在用"
+
+#. Option for the 'Channel' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Partner"
+msgstr "渠道代理"
+
+#. Label of a Select field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.js:29
+msgid "Plan"
+msgstr "套餐"
+
+#. Option for the 'Churn Reason' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Price"
+msgstr "价格"
+
+#. Option for the 'Plan' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Professional"
+msgstr "专业版"
+
+#. Option for the 'Channel' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Referral"
+msgstr "老客推荐"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:341
+msgid "Refresh"
+msgstr "刷新"
+
+#. Label of a Select field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.js:41
+msgid "Region"
+msgstr "地区"
+
+#. Label of a Small Text field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Remarks"
+msgstr "备注"
+
+#. Label of a Card Break in the User Growth Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "Reports"
+msgstr "报表"
+
+#. Option for the 'Churn Reason' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Service Experience"
+msgstr "服务体验"
+
+#. Option for the 'Region' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "South China"
+msgstr "华南"
+
+#. Label of a Select field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Status"
+msgstr "状态"
+
+#. Option for the 'Event Type' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Subscribe"
+msgstr "开通"
+
+#. Label of a Link field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Subscription"
+msgstr "对应开通单"
+
+#. Name of a DocType
+#. Label of a Link in the User Growth Workspace
+#. Label of a shortcut in the User Growth Workspace
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "Subscription Event"
+msgstr "用户服务单据"
+
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.py:29
+msgid "Subscription must be a submitted Subscribe event"
+msgstr "对应开通单必须是已提交的开通单"
+
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.py:31
+msgid "Subscription {0} has already churned"
+msgstr "开通单 {0} 已经流失"
+
+#. Name of a role
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "System Manager"
+msgstr ""
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:377
+msgid ""
+"Tip: click a plan, channel or region to filter the whole dashboard; click a KPI card or churn reason to open the "
+"records."
+msgstr "提示：点击套餐、渠道或地区可筛选整个大屏；点击指标卡片或流失原因可查看明细。"
+
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.js:22
+msgid "To Date"
+msgstr ""
+
+#. Label of a Card Break in the User Growth Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "Transactions"
+msgstr "业务单据"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:62
+msgid "Updated {0} · auto refresh every 5 min"
+msgstr "更新于 {0} · 每 5 分钟自动刷新"
+
+#. Name of a Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "User Growth"
+msgstr "用户增长"
+
+#. Name of a report
+#. Label of a Link in the User Growth Workspace
+#. Label of a shortcut in the User Growth Workspace
+#: user_growth/user_growth/report/user_growth_analysis/user_growth_analysis.json
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "User Growth Analysis"
+msgstr "用户增长分析"
+
+#. Label of a Link in the User Growth Workspace
+#. Label of a shortcut in the User Growth Workspace
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:4
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:331
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "User Growth Dashboard"
+msgstr "用户增长大屏"
+
+#. Option for the 'Channel' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "Website"
+msgstr ""
+
+#. Option for the 'Region' (Select) field in DocType 'Subscription Event'
+#: user_growth/user_growth/doctype/subscription_event/subscription_event.json
+msgid "West China"
+msgstr "西部"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:187
+msgid "month"
+msgstr "月"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:95
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:96
+msgid "vs last month end"
+msgstr "较上月末"
+
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:97
+#: user_growth/user_growth/page/user_growth_dashboard/user_growth_dashboard.js:98
+msgid "vs same days last month"
+msgstr "较上月同期"
+
+#. Count format of shortcut in the User Growth Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "{} Active"
+msgstr "{} 个在用"
+
+#. Count format of shortcut in the User Growth Workspace
+#: user_growth/user_growth/workspace/user_growth/user_growth.json
+msgid "{} Total"
+msgstr "共 {} 条"
+
+msgid "Growth Trend"
+msgstr "增长趋势"
+
+msgid "Active Customers by Plan"
+msgstr "在用客户 · 按套餐"
+
+msgid "New vs Churned"
+msgstr "新增与流失"
+
+msgid "New by Channel"
+msgstr "新增客户 · 按渠道"
+
+msgid "Churn Reasons"
+msgstr "流失原因"
+
+msgid "Active Customers by Region"
+msgstr "在用客户 · 按地区"
+
+msgid "Recent Activity"
+msgstr "最近动态"
+
+msgctxt "Subscription Event"
+msgid "Subscribe"
+msgstr "开通"
+
+msgctxt "Subscription Event"
+msgid "New"
+msgstr "新增"
+
+msgctxt "Subscription Event"
+msgid "Basic"
+msgstr "基础版"
+
+msgctxt "Subscription Event"
+msgid "Professional"
+msgstr "专业版"
+
+msgctxt "Subscription Event"
+msgid "Enterprise"
+msgstr "企业版"
+
+msgctxt "Subscription Event"
+msgid "Website"
+msgstr "官网"
+
+msgctxt "Subscription Event"
+msgid "Direct Sales"
+msgstr "销售直签"
+
+msgctxt "Subscription Event"
+msgid "Partner"
+msgstr "渠道代理"
+
+msgctxt "Subscription Event"
+msgid "Referral"
+msgstr "老客推荐"
+
+msgctxt "Subscription Event"
+msgid "North China"
+msgstr "华北"
+
+msgctxt "Subscription Event"
+msgid "East China"
+msgstr "华东"
+
+msgctxt "Subscription Event"
+msgid "South China"
+msgstr "华南"
+
+msgctxt "Subscription Event"
+msgid "Central China"
+msgstr "华中"
+
+msgctxt "Subscription Event"
+msgid "West China"
+msgstr "西部"
+
+msgctxt "Subscription Event"
+msgid "Price"
+msgstr "价格"
+
+msgctxt "Subscription Event"
+msgid "Competitor"
+msgstr "竞品"
+
+msgctxt "Subscription Event"
+msgid "Missing Features"
+msgstr "功能不满足"
+
+msgctxt "Subscription Event"
+msgid "Service Experience"
+msgstr "服务体验"
+
+msgctxt "Subscription Event"
+msgid "Business Change"
+msgstr "业务调整"
+

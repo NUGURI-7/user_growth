@@ -91,7 +91,7 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Plan",
-   "options": "Basic\nProfessional\nEnterprise",
+   "options": "\nBasic\nProfessional\nEnterprise",
    "read_only_depends_on": "eval:doc.event_type=='Churn'",
    "reqd": 1
   },
@@ -115,7 +115,7 @@
    "fieldtype": "Select",
    "in_standard_filter": 1,
    "label": "Channel",
-   "options": "Website\nDirect Sales\nPartner\nReferral",
+   "options": "\nWebsite\nDirect Sales\nPartner\nReferral",
    "read_only_depends_on": "eval:doc.event_type=='Churn'",
    "reqd": 1
   },
@@ -125,7 +125,7 @@
    "fieldtype": "Select",
    "in_standard_filter": 1,
    "label": "Region",
-   "options": "North China\nEast China\nSouth China\nCentral China\nWest China",
+   "options": "\nNorth China\nEast China\nSouth China\nCentral China\nWest China",
    "read_only_depends_on": "eval:doc.event_type=='Churn'",
    "reqd": 1,
    "in_list_view": 1
@@ -168,7 +168,7 @@
  "grid_page_length": 50,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-10-08 18:30:00.000000",
+ "modified": "2026-10-08 21:30:00.000000",
  "modified_by": "Administrator",
  "module": "User Growth",
  "name": "Subscription Event",
